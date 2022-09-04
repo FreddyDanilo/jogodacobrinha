@@ -52,7 +52,7 @@ const game = () => {
     const movimentation = (tecla) => {
         switch (tecla.keyCode) {
             case 38: // Seta para Cima
-                if (velocityY !== 1) velocityX = 0, velocityY = -1
+                if (velocityY !== 1) velocityX = 0; velocityY = -1
                 break;
             case 40: // Seta para Baixo
                 if (velocityY !== -1) velocityX = 0, velocityY = 1
